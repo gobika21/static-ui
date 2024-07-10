@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+body {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+
+li {
+    padding: 1.5em 1em;
+}
+
+.header-menus {
+    float: left;
+}
+
+.header-icons {
+    float: right;
+}
+
+.header-title {
+    font-size: 33px;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    border: 5px solid black;
+    padding: 0.25em;
+    letter-spacing:0.3em
+}
+
+.section-container .banner-img img {
+    width: 100%;
+}
+
+.search-input {
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    bottom: 20px;
+    left: 35%;
+    border: 5px solid black;
+    padding: 0.25em;
+    letter-spacing: 0.3em;
+}
+
+.card-container {
+    margin: 0 auto;
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    border: 0.5px solid #d3d1d1;
+    margin-bottom: 1em;
+    position: relative;
+    box-shadow: 5px 5px 5px #e9e4e4;
+}
+
+.card-container img {
+    height: 100%;
+}
+
+.card-right {
+    margin: 1em;
+}
+
+.card-right h1 {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+}
+
+.card-right p {
+    color: grey;
+}
+
+hr {
+    margin: 2em 0;
+    color: #d3d1d1;
+}
+
+.card-right .card-action {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1.5em;
+}
+
+.avatar-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.avatar-info .info {
+    display: grid;
+    margin: 0 0.75em;
+}

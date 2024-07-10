@@ -1,8 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
-        <title>Assignment 3</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul class="header-menus">
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <div class="header-title">
+                SALT &amp; PEPPER
+            </div>
+            <div>
+                <ul class="header-icons">
+                    <li>
+                        <span class="material-symbols-outlined">
+                            close
+                        </span>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section-container">
+        <div class="banner-img">
+            <img src="./assests/1.jpeg" alt="banner" />
+            <input type="search" placeholder="Search..." class="search-input" />
+        </div>
+        <h2 style="text-transform: uppercase; text-align: center; margin: 0.75em 0;">Food blog</h2>
+        <!-- Card 1 -->
+        <div class="card-container">
+            <div class="card-left">
+                <img src="./assests/2.jpeg" alt="card-img" />
+            </div>
+            <div class="card-right">
+                <div class="avatar-info">
+                    <span class="material-symbols-outlined" style="font-size: 3em; color: gray">
+                        account_circle
+                    </span>
+                    <div class="info">
+                        <span>Admin</span>
+                        <span>July 10, 2024</span>
+                    </div>
+                </div>
+                <h1>Miracle no-knead bread</h1>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices
+                    your audience to continue reading....</p>
+                <hr />
+                <div class="card-action">
+                    <div>300 views</div>
+                    <div>12 Like(s)</div>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card-container">
+            <div class="card-left">
+                <img src="./assests/3.jpeg" alt="card-img" />
+            </div>
+            <div class="card-right">
+                <div class="avatar-info">
+                    <span class="material-symbols-outlined" style="font-size: 3em; color: gray">
+                        account_circle
+                    </span>
+                    <div class="info">
+                        <span>Admin</span>
+                        <span>July 11, 2024</span>
+                    </div>
+                </div>
+                <h1>Miracle no-knead bread</h1>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices
+                    your audience to continue reading....</p>
+                <hr />
+                <div class="card-action">
+                    <div>300 views</div>
+                    <div>12 Like(s)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
